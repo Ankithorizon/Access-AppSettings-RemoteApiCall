@@ -28,7 +28,7 @@ namespace ApiClient.Processes
 
         // if UserName, Password are successfully accessed from appsettings.json
         // file then call to remote api and return List<Student> 
-        // otherwise return emplty List<Student>
+        // otherwise return empty List<Student>
         public List<Student> GetAllStudents_RemoteApiCall()
         {
             if (UserName == "canada" && Password == "winnipeg")

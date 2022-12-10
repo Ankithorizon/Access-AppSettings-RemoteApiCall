@@ -31,7 +31,7 @@ namespace StartupBusinessCore
             
             
             // for checking that ApiClient has called remote api
-            // and here in console application checkes if data receives
+            // and here in console application checks if data received
             // from ApiClient-->remote api
             DisplayStudents();
         }
