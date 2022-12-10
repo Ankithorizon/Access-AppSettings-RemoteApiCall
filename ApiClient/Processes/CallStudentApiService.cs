@@ -33,6 +33,8 @@ namespace ApiClient.Processes
         {
             if (UserName == "canada" && Password == "winnipeg")
             {
+                // call to Remote-Api and receives List<Student>
+
                 List<Student> students = new List<Student>();
                 students.Add(new Student()
                 {

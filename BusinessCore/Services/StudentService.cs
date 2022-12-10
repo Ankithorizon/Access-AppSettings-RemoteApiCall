@@ -21,7 +21,13 @@ namespace BusinessCore.Services
         // and ApiClient project will call remote-api
         public List<Student> GetAllStudents()
         {
-            return apiClient.GetAllStudents_RemoteApiCall();
+            List<Student> students = new List<Student>();
+
+            students =  apiClient.GetAllStudents_RemoteApiCall();
+
+            // run any business process on received students from apiClient->remote-api
+
+            return students;
         }
     }
 }
